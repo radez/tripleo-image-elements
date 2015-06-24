@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -eux
+
+# Install gitrepo for OpenDaylight
+sudo git clone https://github.com/dfarrell07/puppet-opendaylight/ /usr/share/openstack-puppet/modules/opendaylight
