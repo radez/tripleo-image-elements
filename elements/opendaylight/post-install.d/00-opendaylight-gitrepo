@@ -4,3 +4,6 @@ set -eux
 
 # Install gitrepo for OpenDaylight
 sudo git clone https://github.com/dfarrell07/puppet-opendaylight/ /usr/share/openstack-puppet/modules/opendaylight
+
+sudo git clone https://github.com/trozet/networking-odl.git /tmp/networking-odl
+sudo mv /tmp/networking-odl/networking_odl /usr/lib/python2.7/site-packages/
