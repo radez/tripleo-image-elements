@@ -3,5 +3,5 @@
 set -eux
 
 # Install repo file for OpenDaylight
-sudo curl -o /etc/yum.repos.d/dfarrell07-OpenDaylight-epel-7.repo https://copr.fedoraproject.org/coprs/dfarrell07/OpenDaylight/repo/epel-7/dfarrell07-OpenDaylight-epel-7.repo
+sudo curl -o/etc/yum.repos.d/opendaylight-3-candidate.repo https://raw.githubusercontent.com/opendaylight/integration-packaging/master/rpm/example_repo_configs/opendaylight-3-candidate.repo
 
